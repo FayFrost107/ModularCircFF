@@ -163,3 +163,7 @@ cython_debug/
 /Tutorials
 *.csv
 .DS_Store
+
+### Dont ignore specific files
+#!/Emulation/Input/*.csv
+#!Emulation/Output/
