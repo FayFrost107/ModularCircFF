@@ -165,5 +165,8 @@ cython_debug/
 .DS_Store
 
 ### Dont ignore specific files
-#!/Emulation/Input/*.csv
-#!Emulation/Output/
+!/Emulation/Input/*.csv
+!Emulation/Outputs/Emulators/*.csv
+!Emulation/Outputs/Out_fixed/PCA/*.csv
+!Emulation/Outputs/Out_fixed/pressure_traces_r_pat/all_pressure_traces.csv
+
